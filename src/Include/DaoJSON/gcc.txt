@@ -1,0 +1,2 @@
+gcc -o test test.c -L/usr/local/soft/tjuhe/lib/ -lcJSON -lm
+gcc -shared -fPIC -o ./libcJSON.so ./cJSON.c

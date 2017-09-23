@@ -1,0 +1,12 @@
+#安装目录调整请更改INSTALL_TOP的值
+#编译
+make
+
+#安装
+make install
+
+#卸载
+make uninstall
+
+#清理库
+make clean
